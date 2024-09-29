@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Playlist</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css"> <!-- Link to your CSS file -->
+
+
+</head>
+<body>
+    <div id="discoBallContainer">
+        <div id="discoBall">
+            <div id="discoBallMiddle"></div>
+        </div>
+        <div id="discoBallLight"></div>
+    </div>
+
+    <audio id="audio-player" src="spotifydown.com - Celebration.mp3"></audio>
+    <button type="button" id=play>Play</button>
+
+
+    <div class="twinkling">
+    </div>
+
+    <a href="../Trivia/quiz.html" 
+    onmouseover="this.querySelector('img').classList.add('hover-effect');" 
+    onmouseout="this.querySelector('img').classList.remove('hover-effect');">
+     <img id="trivia" src="clickTrivia.png" alt="Click to play Trivia" width="200" height="200">
+ </a>
+ <a href="../Dress-up/game.html" 
+ onmouseover="this.classList.add('hover-effect');" 
+ onmouseout="this.classList.remove('hover-effect');">
+  <img id="dressup" src="clickDress.png" alt="Click to Dress your 70s diva" width="200" height="200">
+</a>
+
+    
+    
+    <h1>Spotify Playlist</h1>
+    <div id="playlist-info"></div> <!-- This is where the playlist info will appear -->
+    
+    <!-- <div id="fix">
+
+    <button id="forward"></button>
+    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3K7Q9PHUWPTaknlbFPThn2?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2xiOdusRnZezQok1RgLNeS?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/17OqI90oTFZ3J8PVu6j07V?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/22ff60cZy4APp7bzESHLR8?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    </div> -->
+    <script src="discoball.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="app.js"></script> <!-- Link to your JavaScript file -->
+</body>
+</html>
