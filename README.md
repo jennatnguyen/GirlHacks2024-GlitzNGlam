@@ -4,6 +4,7 @@ A web application to let users fully immerse themselves in the 70s era through a
 
 ## Goals 💡
 - Allows users to experience the essence of 70s culture through a dress-up simulator and themed quizzes.
+- Users can listen to 70's disco music while navigating the website
 - Provides outfit inspiration, educational trivia, and a glimpse into the music and fashion of the disco era.
 
 # Engineering Details 🛠️
